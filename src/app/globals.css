@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Satoshi', sans-serif !important;
+    background: #000 !important;
+  }
+
+  :root {
+    --dark-grey: #151515;
+    --darkish-grey: #262626;
+    --pink-bright: #FFABFF;
+    --purple: #4E2F5E;
+    --font-size-base: 16px;
+    --off-white: #CBCBCB;
+    --spacing: 1rem;
+  }
+
+  .bg-dark-black {
+    background-color: var(--dark-grey);
+    border-bottom: 0.75px solid #262626;
+  }
+
+  .bg-nav {
+    background-color: var(--darkish-grey);
+  }
+
+  .navbar-toggler {
+    background-color: #fff !important;
+  }
+
+  .font_sb {
+    font-size: 13.5px !important;
+    line-height: 150% !important;
+    letter-spacing: 0% !important;
+  }
+
+  .font_me {
+    font-size: 25.48px !important;
+    line-height: 140% !important;
+    letter-spacing: 0% !important;
+  }
+
+  .font_lg {
+    font-size: 114.65px !important;
+    line-height: 114.65px !important;
+  }
+
+  .font_lg>span {
+    font-family: 'Instrument Serif';
+    font-style: italic;
+  }
+
+  .font_mee {
+    font-size: 35.67px !important;
+    line-height: 140% !important;
+  }
+
+  .button_cm {
+    background-color: var(--pink-bright) !important;
+    border: 3px solid var(--purple) !important;
+  }
+
+  .heading_color {
+    color: var(--off-white);
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .development {
+    font-size: 10.8px !important;
+   font-family: 'Satoshi', sans-serif !important;
+   font-weight: 500;
+   color: #FEFEFE;
+   background: #000;
+   width: fit-content;
+   position: absolute;
+   top: 0;
+   right: 0;
+  }
+
+  .circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white; 
+  border-radius: 50%;       
+  background-color: #fff; 
+}
+
+.card-radius {
+  border-radius: 15px !important;
+}
+
+.dark_bg {
+  background-color: #151515 !important;
+}
+
+.gallery_head {
+  color: #CBCBCB;
+  font-size: 20px;
+}
+
+.gallery_head_one {
+  color: var(--pink-bright);
+  font-size: 55.7px;
+  font-family: 'Satoshi', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.gallery_head_one>span {
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+  @media (min-width: 1025px) {
+    .divider {
+        display: none;
+        visibility: hidden;
+        font-size: 0;
+    }
+}
+
+  @media (max-width: 768px) { 
+    
+  .font_sb {
+    font-size: 11.5px !important;
+  }
+
+  .font_me {
+    font-size: 18.48px !important;
+  }
+
+  .font_lg {
+    font-size: 64.65px !important;
+    line-height: normal !important;
+  }
+
+  .font_mee {
+    font-size: 20.67px !important;
+  }
+
+  .hover_img>img {
+    display: none;
+  }
+
+}
